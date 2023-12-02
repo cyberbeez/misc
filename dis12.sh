@@ -1,4 +1,4 @@
-#!/bin/bash
+s#!/bin/bash
 echo "Script to Run Network Management Commands"
 echo "--"
 echo "Check Ip Address:"
@@ -25,8 +25,8 @@ echo "Capture Traffic:"
 echo "--"
 echo "Output to ./netcapt.pcap file."
 echo "I had to watch the video on this one, my method only works on debian..."
-timeout 10s sudo tcpdump -eth18 -w ./netcapt.pcap
-echo "using the 'tcpdump -eth18 -w ./netcapt.pcap' command..."
+timeout 10s sudo tcpdump -ens18 -w ./netcapt.pcap
+echo "using the 'tcpdump -ens18 -w ./netcapt.pcap' command..."
 echo "--" 
 echo "Check CPU and Memory Usage:"
 echo "--"
