@@ -1,5 +1,5 @@
 #!/bin/bash
-echo"Script to Run Network Management Commands"
+echo "Script to Run Network Management Commands"
 echo "--"
 echo "Check Ip Address:"
 echo "--"
